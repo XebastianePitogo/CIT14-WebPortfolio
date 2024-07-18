@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    font-family: 'Robotica', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0 0 2px red, 0 0 6px orange;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+p{
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 2px yellow;
+}
+
+body{
+    position: relative;
+    background-position: center;
+    background-color: black;
+    text-align: center;
+    min-height: 95vh;
+    margin: 0;
+}
+
+p[title="low header credit"]{
+    color: white;
+    margin-top: 700px;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e88282130522695.61820856265db.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+
+
+
