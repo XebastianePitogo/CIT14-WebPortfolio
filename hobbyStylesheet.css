@@ -25,15 +25,17 @@ body::before {
     font-size: 20px;
     color: rgb(255, 255, 255);
     margin: 5vh;
+    -webkit-text-stroke: 1px black;
 }
 
 .hobbyWelcome {
 font-family: 'Oswald', sans-serif;
 font-weight: bold;
 font-size: 5vh;
-text-shadow: 0 0 1px red, 0 0 1px hsl(41, 82%, 47%);
+text-shadow: 0 0 10px rgba(13, 248, 229, 0.7), 
+             0 0 20px rgba(248, 13, 229, 0.5), 
+             0 0 30px rgba(21, 248, 13, 0.3);
 color: rgb(239, 226, 255);
--webkit-text-stroke: 1px black;
 }
 
 .cat {
